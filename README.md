@@ -29,8 +29,11 @@ Agora você deve continuar desenvolvendo a aplicação que irá armazenar reposi
 
 # 🚧 Projeto 
 <div align="center">
-    <p align="left">Utilizando o próprio browser para ter uma resposta visual:</br></br>
-    🟣 Inicialmente é feita uma requisição GET á API, como não ha dados na API a lista fica vazia.</br>
+    <p align="left">Utilizando o próprio browser para ter uma resposta visual:</br></br></p>
+    <p align="left">🟣 Requisição GET.</p>
+    <p align="left">🟢 Requisição POST.</p>
+    <p align="left">🔴 Requisição DELETE.</br></br></p>
+    <p align="left">🟣 Inicialmente é feita uma requisição GET á API, como não ha dados na API a lista fica vazia.</br>
     🟣 É realizada apenas uma vez a requisição GET, com isso os dados são salvos local com o uso do hook useState.</p>
     <img alt="Get Repos" title="Get Repos" src=".github/1.PNG" />
     <p align="left">🟢 Após adicionar o objeto á API com método POST, é renderizado o título do primeiro objeto.</br>🟢 E para a renderização não é feita uma nova requisição GET á API.</p>
